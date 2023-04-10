@@ -26,7 +26,7 @@ pip3 install scikit-build cmake
 python3 setup.py develop
 
 # Run
-MODEL=`pwd`/models/ggml-vicuna-13b-4bit-rev1.bin HOST=127.0.0.1 python3 -m llama_cpp.server
+MODEL=`pwd`/../models/ggml-vicuna-13b-4bit-rev1.bin HOST=127.0.0.1 python3 -m llama_cpp.server
 ```
 ### Run chatbot-UI ([chatbot-ui](https://github.com/mckaywrigley/chatbot-ui))
 ```bash
