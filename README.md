@@ -1,19 +1,26 @@
 # VicunaWithGUI
 This project support a WEB UI with Vicuna13B (using llama-cpp-python, chatbot-ui)
 
-# How to use it?
-### Clone this repo
+# 1. Preview
+## 1) Chat-UI (url: `http://localhost:3000/en`)
+<img width="1159" alt="image" src="https://user-images.githubusercontent.com/6852711/230879947-3348f405-e529-44b6-88db-49d488467bd4.png">
+
+## 2) 🦙 llama.cpp Python API (url: `http://localhost:8000/docs`)
+<img width="1159" alt="image" src="https://user-images.githubusercontent.com/6852711/230880175-cb3710f9-41b5-4df7-9b7c-177d5db136c9.png">
+
+# 2. How to use it?
+### 1) Clone this repo
 ```bash
 git clone https://github.com/blackcon/VicunaWithGUI.git
 cd VicunaWithGUI
 ```
-### Download model ([eachadea/ggml-vicuna-13b-4bit](https://huggingface.co/eachadea/ggml-vicuna-13b-4bit/tree/main))
+### 2) Download model ([eachadea/ggml-vicuna-13b-4bit](https://huggingface.co/eachadea/ggml-vicuna-13b-4bit/tree/main))
 ```bash
 mkdir models
 cd models
 wget https://huggingface.co/eachadea/ggml-vicuna-13b-4bit/resolve/main/ggml-vicuna-13b-4bit-rev1.bin
 ```
-### Run API server ([llama-cpp-python](https://github.com/abetlen/llama-cpp-python))
+### 3) Run API server ([llama-cpp-python](https://github.com/abetlen/llama-cpp-python))
 ```bash
 # clone as submodule
 cd VicunaWithGUI
@@ -28,7 +35,7 @@ python3 setup.py develop
 # Run
 MODEL=`pwd`/../models/ggml-vicuna-13b-4bit-rev1.bin HOST=127.0.0.1 python3 -m llama_cpp.server
 ```
-### Run chatbot-UI ([chatbot-ui](https://github.com/mckaywrigley/chatbot-ui))
+### 4) Run chatbot-UI ([chatbot-ui](https://github.com/mckaywrigley/chatbot-ui))
 ```bash
 cd VicunaWithGUI
 git submodule add https://github.com/mckaywrigley/chatbot-ui.git
