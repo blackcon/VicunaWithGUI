@@ -27,8 +27,8 @@ MODEL=`pwd`/models/ggml-vicuna-13b-4bit-rev1.bin HOST=127.0.0.1 python3 -m llama
 ### Run chatbot-UI ([chatbot-ui](https://github.com/mckaywrigley/chatbot-ui))
 ```bash
 cd VicunaWithGUI
-
 git submodule add https://github.com/mckaywrigley/chatbot-ui.git
+
 cd chatbot-ui
 npm i
 OPENAI_API_HOST=http://127.0.0.1:8000 npm run dev
