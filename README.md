@@ -1,5 +1,5 @@
 # VicunaWithGUI
-This project support a WEB UI with Vicuna13B (using llama-cpp-python, chatbot-ui)
+This project support a WEB UI with Vicuna13B (using [llama-cpp-python](https://github.com/abetlen/llama-cpp-python), [chatbot-ui](https://github.com/mckaywrigley/chatbot-ui))
 
 # 1. Preview
 ## 1) Chat-UI (url: `http://localhost:3000/en`)
