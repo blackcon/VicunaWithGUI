@@ -7,7 +7,7 @@ This project support a WEB UI with Vicuna13B (using llama-cpp-python, chatbot-ui
 git clone https://github.com/blackcon/VicunaWithGUI.git
 cd VicunaWithGUI
 ```
-### Download module ([eachadea/ggml-vicuna-13b-4bit](https://huggingface.co/eachadea/ggml-vicuna-13b-4bit/tree/main))
+### Download model ([eachadea/ggml-vicuna-13b-4bit](https://huggingface.co/eachadea/ggml-vicuna-13b-4bit/tree/main))
 ```bash
 mkdir models
 cd models
@@ -27,6 +27,7 @@ MODEL=`pwd`/models/ggml-vicuna-13b-4bit-rev1.bin HOST=127.0.0.1 python3 -m llama
 ### Run chatbot-UI ([chatbot-ui](https://github.com/mckaywrigley/chatbot-ui))
 ```bash
 cd VicunaWithGUI
+
 git submodule add https://github.com/mckaywrigley/chatbot-ui.git
 cd chatbot-ui
 npm i
