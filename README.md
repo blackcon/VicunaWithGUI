@@ -44,6 +44,9 @@ cd chatbot-ui
 # install
 npm i
 
-# run
+# build
+npm run build
+
+# run as dev
 OPENAI_API_HOST=http://127.0.0.1:8000 npm run dev
 ```
