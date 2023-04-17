@@ -30,6 +30,7 @@ git clone https://github.com/ggerganov/llama.cpp.git llama-cpp-python/vendor/lla
 # setup llama-cpp-python
 cd llama-cpp-python
 pip3 install scikit-build cmake
+pip3 install fastapi sse_starlette uvicorn
 python3 setup.py develop
 
 # Run
