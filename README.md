@@ -49,5 +49,5 @@ npm i
 npm run build
 
 # run as dev
-OPENAI_API_HOST=http://127.0.0.1:8000 npm run dev
+OPENAI_API_HOST=http://127.0.0.1:8000 OPENAI_API_KEY=blah npm run dev
 ```
