@@ -27,6 +27,10 @@ cd VicunaWithGUI
 git submodule add https://github.com/abetlen/llama-cpp-python.git
 git clone https://github.com/ggerganov/llama.cpp.git llama-cpp-python/vendor/llama.cpp
 
+# change head
+cd llama-cpp-python/vendor/llama.cpp
+git checkout 1d78fecdab4087028a38517e86ed129f077174d8
+
 # setup llama-cpp-python
 cd llama-cpp-python
 pip3 install scikit-build cmake
