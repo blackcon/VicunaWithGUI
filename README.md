@@ -55,3 +55,7 @@ npm run build
 # run as dev
 OPENAI_API_HOST=http://127.0.0.1:8000 OPENAI_API_KEY=blah npm run dev
 ```
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=blackcon/VicunaWithGUI&type=Date)](https://star-history.com/#blackcon/VicunaWithGUI&Date)
