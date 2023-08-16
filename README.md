@@ -33,8 +33,7 @@ git checkout 1d78fecdab4087028a38517e86ed129f077174d8
 
 # setup llama-cpp-python
 cd llama-cpp-python
-pip3 install scikit-build cmake
-pip3 install fastapi sse_starlette uvicorn
+pip3 install scikit-build cmake fastapi sse_starlette uvicorn pydantic-settings
 python3 setup.py develop
 
 # Run
